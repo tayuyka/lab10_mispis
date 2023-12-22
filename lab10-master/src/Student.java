@@ -55,6 +55,15 @@ public class Student {
 		this.lastName = lastName;
 	}
 
+	public String sendHomework(String homework){
+		return doHomework(homework);
+	}
+
+	public String doHomework(String homework){
+		return homework;
+	}
+
+
 
 	@Override
 	public String toString() {
